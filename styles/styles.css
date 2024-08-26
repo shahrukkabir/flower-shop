@@ -44,12 +44,13 @@ button:hover {
 
 .description {
     color: rgba(39, 39, 39, 0.6);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
-    text-align: center;
+    text-align: left;
     margin-bottom: 100px;
 
 }
+
 
 /* banner section styles */
 
@@ -147,7 +148,7 @@ header {
 
 }
 
-.container p {
+.container .contact-container p {
     color: rgba(39, 39, 39, 0.8);
     font-size: 16px;
     font-weight: 600;
