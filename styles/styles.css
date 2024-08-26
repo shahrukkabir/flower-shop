@@ -115,9 +115,9 @@ header {
     align-items: end;
 }
 
-/* .section-content .flower .flower-image img{
+.section-content .flower .flower-image img {
     width: 100%;
-} */
+}
 
 .section-content .flower .pink {
     background: rgba(167, 33, 98, 0.15);
@@ -134,4 +134,23 @@ header {
     margin-top: 16px;
     text-align: center;
     text-decoration-line: underline;
+}
+
+/* contact section */
+
+
+.contact-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+}
+
+.container p {
+    color: rgba(39, 39, 39, 0.8);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 16px;
 }
