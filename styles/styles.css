@@ -157,29 +157,31 @@ header {
 
 /* offer section */
 
-.offer{
+.offer {
     background-color: rgba(229, 84, 115, 0.1);
     margin-bottom: 100px;
 }
-.off{
+
+.off {
     color: rgb(229, 84, 115);
 }
-.offer-parent{
+
+.offer-parent {
     padding: 75px 320px 75px 200px;
     display: flex;
     gap: 140px;
     align-items: center;
 }
 
-.offer .offer-parent .offer-content button{
+.offer .offer-parent .offer-content button {
     align-items: center;
-     margin-top: 40px;
-     margin-left: 200px;
+    margin-top: 40px;
+    margin-left: 200px;
 }
 
 /* flower image section */
 
-.flower-container{
+.flower-container {
     display: flex;
     gap: 10px;
     width: 75%;
@@ -188,6 +190,83 @@ header {
     margin-top: 30px;
     margin-bottom: 100px;
 }
-.pic{
-    width: 100%;
+
+.pic {
+    width: 90%;
+}
+
+/* newslater section */
+
+.deal-container {
+    margin-bottom: 100px;
+}
+
+.newslater {
+    background-image: url('../images/Rectangle\ 9.png');
+    padding: 128px 0px;
+}
+
+.deal-container form {
+    display: flex;
+    gap: 10px;
+    margin: 20px auto;
+    max-width: 700px;
+}
+
+.input {
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    outline: none;
+    flex-grow: 1;
+}
+
+/* footer section style */
+
+footer {
+    background-color: rgb(17, 16, 16);
+    height: 350px;
+}
+
+.footer-container {
+    padding: 100px auto;
+}
+
+.footer-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: white;
+}
+
+.Flower {
+    font-size: 36px;
+    font-weight: 800;
+    color: rgb(229, 84, 115);
+}
+
+.footer-des {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    margin-top: 16px;
+}
+
+.copy {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.footer-heading{
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+.footer-container{
+    padding-top: 60px;
 }
