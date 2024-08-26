@@ -176,3 +176,18 @@ header {
      margin-top: 40px;
      margin-left: 200px;
 }
+
+/* flower image section */
+
+.flower-container{
+    display: flex;
+    gap: 10px;
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.pic{
+    width: 100%;
+}
